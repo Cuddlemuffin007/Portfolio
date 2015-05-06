@@ -1,0 +1,73 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#name {
+	font-family: impact, sans-serif;
+	color: #FFF;
+	width: 240px;
+	float: left;
+}
+.header {
+	background-color: #333
+}
+
+.header li {
+	display: inline;
+}
+.header li a{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: left;
+	color: #FFF;
+}
+
+.container {
+	margin: 0, auto;
+}
+
+.jumbotron {
+	height: 800px;
+	background: url("kinkakuji.jpg");
+	background-size: cover;
+	margin-bottom: 15px;
+}
+
+.nav {
+	padding: 25px 0;
+	width: 500px;
+	float: right;
+}
+
+.nav li a {
+	display: inline;
+}
+
+.nav li a:hover {
+	text-decoration: underline;
+	background-color: #333;
+}
+
+.main {
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+
+.footer {
+	padding: 0 30px;
+}
+
+.social {
+	top: 10px;
+	padding: 5px;
+}
+
+.social a {
+	padding: 0 5px;
+	position: relative;
+	left: 500px;
+}
+.attributes {
+	font-size: 10px;
+	text-align: right;
+}
