@@ -51,6 +51,7 @@
 	position: relative;
 	top: 20px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .footer {
@@ -70,4 +71,29 @@
 .attributes {
 	font-size: 10px;
 	text-align: right;
+}
+
+.about {
+	width: 90%;
+	top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin: 30px;
+}
+
+.about article {
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.about h1 {
+	text-align: center;
+	font-family: impact, sans-serif;
+}
+.about img {
+	display: inline-block;
+	float: right;
+	clear: both;
 }
