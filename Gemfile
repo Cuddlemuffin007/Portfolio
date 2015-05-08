@@ -40,3 +40,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 #for Heroku deployment
 gem 'rails_12factor', group: :production
+gem 'mail_form'
