@@ -1,14 +1,12 @@
 Rails.application.routes.draw do
-  resources :contact_forms
-  get 'contact_form/new'
-
-  get 'contact_form/create'
 
   root 'pages#welcome'
 	
   get '/about' => 'pages#about'
   
-  get '/contact' => 'pages#contact'
+  get '/contact_form' => 'contact_form#new', as: 'contact'
+  resources 'contact_form', only: [:create]
+  
 	
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
