@@ -1,2 +1,2 @@
 # Ignore env variables stored in secrets.yml
-/config/secrets.yml
+#/config/secrets.yml
