@@ -1,0 +1,52 @@
+Started GET "/" for 127.0.0.1 at 2015-05-08 20:30:37 +0900
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1880ms (Views: 1861.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/linkedin1.png" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/facebook3.png" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/twitter_logo.png" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/github17.png" for 127.0.0.1 at 2015-05-08 20:30:39 +0900
+Started GET "/assets/kinkakuji.jpg" for 127.0.0.1 at 2015-05-08 20:30:40 +0900
+Started GET "/contact_form" for 127.0.0.1 at 2015-05-08 20:30:43 +0900
+Processing by ContactFormController#new as HTML
+  Rendered contact_form/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 56ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+Started POST "/contact_form" for 127.0.0.1 at 2015-05-08 20:30:57 +0900
+Processing by ContactFormController#create as HTML
+  Parameters: {"utf8"=>"✓", "contact_form"=>{"name"=>"Brennon", "email"=>"brennon@apexes.co.jp", "message"=>"test test env"}, "button"=>""}
+  Rendered c:/Ruby200/lib/ruby/gems/2.0.0/gems/mail_form-1.5.1/lib/mail_form/views/mail_form/contact.erb (2.0ms)
+
+MailForm::Notifier#contact: processed outbound mail in 43.0ms
+
+Sent mail to brennonkrogers@gmail.com (18.0ms)
+Date: Fri, 08 May 2015 20:30:57 +0900
+From: Brennon <brennon@apexes.co.jp>
+To: brennonkrogers@gmail.com
+Message-ID: <554c9e71b9d2f_1eec24359dc7785b@Brennon-WIN7-PC.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Brennon</p>
+
+  <p><b>Email:</b>
+  brennon@apexes.co.jp</p>
+
+  <p><b>Message:</b>
+  test test env</p>
+
+
+  Rendered contact_form/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Started GET "/contact_form" for 127.0.0.1 at 2015-05-08 20:31:42 +0900
+Processing by ContactFormController#new as HTML
+  Rendered contact_form/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
