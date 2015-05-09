@@ -11541,10 +11541,6 @@ $(document).ready(function() {
 		if ([this.value === this.defaultValue]) {
 			[this.value = ''];
 		}
-	}).blur(function() {
-		if ([this.value === '']) {
-			[this.value = this.defaultValue];
-		}
 	});
 	$('button').click(function () {
 		$(this).css("background-color", "#0f0");
