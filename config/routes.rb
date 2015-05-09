@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 	
   get '/about' => 'pages#about'
   
+  get '/portfolio' => 'pages#portfolio'
+  
   get '/contact_form' => 'contact_form#new', as: 'contact'
   resources 'contact_form', only: [:create]
   

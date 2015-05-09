@@ -89,11 +89,13 @@
 	width: 45%;
 	display: inline-block;
 	padding-left: 30px;
+	color: #777;
 }
 
 .about h1 {
 	text-align: center;
 	font-family: impact, sans-serif;
+	color: #000;
 }
 
 .about img {
@@ -154,7 +156,7 @@ button:hover {
 .create-container {
     margin: 0 auto;
 }
-.create-container h1 {
+.create-container h1, .create-container p {
     text-align: center;
     font-size: 48px;
     font-family: helvetica, sans-serif;
@@ -162,8 +164,27 @@ button:hover {
 }
 
 .create-container p {
-    text-align: center;
-    font-family: arial, sans-serif;
     font-size: 2em;
-    color: #777
+}
+
+.portfolio-container {
+	margin: 0 auto;
+	height: 800px;
+	background: url("snorlax-bukoya.png") no-repeat;
+	background-position: 0 -12em;
+	background-size: cover;
+}
+
+.portfolio-container h1, .portfolio-container p {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	color: #777;
+}
+
+.portfolio-container h1 {
+	font-size: 48px;
+}
+
+.portfolio-container p {
+	font-size: 2em;
 }
