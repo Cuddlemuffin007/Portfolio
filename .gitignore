@@ -2,3 +2,7 @@
 /config/secrets.yml
 # Ignore logs
 /log/*
+# Ignore bfg mess
+/portfolio.git.bfg-report/*
+# Ignore tmp
+/tmp/*
