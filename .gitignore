@@ -6,5 +6,3 @@
 /portfolio.git.bfg-report/*
 # Ignore tmp
 /tmp/*
-#Ignore precompiled files
-/public/*
